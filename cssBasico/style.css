@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.background {
+    max-width: 800px;
+    margin: auto;
+    padding: 30px 30px 0; 
+}
+
+.top_bar {
+    background-color: #414141;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-bottom: 4px solid #FD8A24;
+}
+
+.header__title {
+    font-weight: 900;
+    line-height: 1.6em;
+    margin-bottom: 20px;
+}
+
+.header__text {
+    color: rgba(0, 0, 0, 0.562);
+    line-height: 1.2em;
+    margin-bottom: 15px;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.header__author {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.header__time {
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.418);
+    font-weight: 500;
+}
+
+header .list {
+    list-style: none;
+    margin: 15px 0; 
+    display: flex;
+}
+
+.list img {
+    padding-right: 15px;
+    width: 20px;
+}
+
+.line {
+    margin-bottom: 20px;
+}
+
+main p {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.link__out a {
+    color: #fd8a24;
+    font-weight: bold;
+    text-decoration: none;   
+}
+
+.link__out a:hover {
+    text-decoration: underline;
+    color: #dd6c0a;
+}
+
+.img {
+    width: 100%; 
+    margin: 20px 0 ;
+}
+
+figcaption {
+    color: rgba(0, 0, 0, 0.582);
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.section__title {
+    margin: 20px 0 10px;
+}
